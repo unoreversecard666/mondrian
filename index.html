@@ -1,44 +1,65 @@
+<!DOCTYPE html>
 <html>
-    <body>
-    <div style="background-color:black; text-align: center">
+<head>
+    <title>Mondrian</title>
+    <meta charset="utf-8">
+    <heading1> hey there buddy chum pal friend buddy pal chum bud friend fella bruther amigo pal buddy friend chummy chum chum pal i don't mean to be rude my friend pal home slice bread slice dawg but i gotta warn ya if u take one more diddly darn step right there im going to have to diddly darn snap ur neck and wowza wouldn't that be a crummy juncture, huh? do yuo want that? do wish upon yourself to come into physical experience with a crummy juncture? because friend buddy chum friend chum pally pal chum friend if you keep this up well gosh diddly darn i just might have to get not so friendly with u my friendly friend friend pal friend buddy chum pally friend chum buddy.</heading1>
+    <style>
+        #toprow {height: 290px}
+        #middlerow {height: 10px}
+        #bottomrow {height: 100px}
+        #bigbox { width: 290px; height: 290px; }
+        #topleftcolumn {width: 100px}
+        #bottomrightcolumn {width: 20px}
+        #mediumbox {width: 100px; height: 150px}
+        #smallbox {width: 100px; height: 100px}
+        #widebox {width: 260px; height: 100px}
+        #tinybox {width: 200px; height: 25px}
+        #divider1 {width: 290px; height: 10px}
+        #divider2 {width: 10px; height: 100px}
+        #divider3 {width: 100px; height: 10px}
+        #divider4 {width: 10px; height: 20px}
 
-         <h1 style="font-family:comicsansMS"> e </h1>
-
-        <img src="http://hd.wallpaperswide.com/thumbs/clone_wars_last_stand-t2.jpg">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-Xpht6JhYrzPphSiQWe2NI4Rl9pvkcvepHaO-VKI2n42LYRc">
+        .red {
+            background-color: #cc3333;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .black {
+            background-color: black;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .right {float:right;
+        }
+    </style>
+</head>
+<body>
+<div id="canvas">
+    <div id="toprow">
+        <div id="bigbox" class="red right"></div>
+        <div id="divider1" class="black right"></div>
+        <div id="topleftcolumn" class="right">
+            <div id="mediumbox"></div>
+            <div id="divider2" class="black"></div>
+            <div id="mediumbox"></div>
+        </div>
 
     </div>
-
-    <div style="width:150px">
-        <div style="background-color:red; height:100px;width:100px">
+    <div id="middlerow" class="black"></div>
+    <div id="bottomrow">
+        <div id="bottomrightcolumn" class="right">
+            <div id="tinybox"></div>
+            <div id="divider4" class="black"></div>
+            <div id="tinybox" class="yellow"></div>
         </div>
-        <div style="background-color:blue; height:50px;width:50px; float: right">
-        </div>
+        <div id="divider3" class="black right"> </div>
+        <div id="widebox" class="right"> </div>
+        <div id="divider3"class="black right"> </div>
+        <div id="smallbox"class="blue right"> </div>
     </div>
-
-    <div style="width:25px">
-
-        <div style="background-color:black; height:25px;width:25px; float: right">
-        </div>
-            <div style="background-color:yellow; height:25px;width:25px; float: right">
-            </div>
-
-    </div>
-
-
-    </body>
+</div>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
